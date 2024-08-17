@@ -1,0 +1,15 @@
+[package]
+name = "MultisigWallet"
+version = "1.0.0"
+authors = ["Your Name"]
+
+[addresses]
+MultisigAddr = "_"
+
+[dev-addresses]
+MultisigAddr = "0x1"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "mainnet" }
+
+[dev-dependencies]
