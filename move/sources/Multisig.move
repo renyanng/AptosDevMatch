@@ -1,4 +1,3 @@
-
 module MultisigAddr::Multisig {
     // 
     use std::vector;
